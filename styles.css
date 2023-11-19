@@ -1,0 +1,50 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2; /* Light gray background */
+    color: #333; /* Dark gray text color */
+    margin: 0;
+}
+
+header {
+    background-color: #3498db; /* Blue header background */
+    color: #fff; /* White text color in the header */
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #3498db; /* Blue heading color */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #2980b9; /* Darker blue link color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #3498db; /* Blue footer background */
+    color: #fff; /* White text color in the footer */
+}
