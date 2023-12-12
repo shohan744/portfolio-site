@@ -48,8 +48,8 @@ nav ul li a {
 }
 
 .profile-img {
-  width: 150px;
-  height: 150px;
+  width: 325px;
+  height: 325px;
   border-radius: 50%;
   margin: 0 auto 1rem; /* Center the image and add space at the bottom */
 }
@@ -66,8 +66,8 @@ nav ul li a {
 }
 
 .service img {
-  width: 64px;
-  height: 64px;
+  width: 128px;
+  height: 128px;
   display: block; /* Make sure the icons are centered */
   margin: 0 auto; /* Center the icons */
 }
