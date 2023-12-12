@@ -1,46 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shane's Technical Portfolio</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Add your CSS file link here -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Tech Portfolio</title>
+  <!-- Link to Google Fonts for Roboto Mono -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap">
+  <!-- Link to your external CSS file -->
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-    <!-- Header Section -->
-    <header>
-        <h1>Shane's Technical Portfolio</h1>
-        <!-- Add any additional information you'd like in the header -->
-    </header>
-
-    <!-- Main Content Section -->
-    <section>
-        <!-- Introduction -->
-        <div>
-            <h2>Hello, I'm Shane!</h2>
-            <p>Welcome to my technical portfolio. I specialize in HTML & CSS, level design, and Python.</p>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="home" class="hero">
+      <div class="profile-container">
+        <div class="left-info">
+          <!-- Left container for additional information -->
+          <p>Alaska-based freelancer</p>
+          <p>shaneh@protonmail.me</p>
         </div>
-
-        <!-- Skills Section -->
-        <div>
-            <h2>Skills</h2>
-            <ul>
-                <li><a href="html_css_page.html">HTML & CSS</a></li>
-                <li><a href="level_design_page.html">Level Design</a></li>
-                <li><a href="python_page.html">Python</a></li>
-            </ul>
+        <div class="profile-info">
+          <!-- Center container for profile information -->
+          <img src="images/profile.jpg" alt="Profile Picture" class="profile-img">
+          <br><br>
+          <h1>Shane H.</h1>
+          <h1>Tech for hire.</h1>
         </div>
-
-        <!-- Add more sections as needed -->
-
+        <div class="right-info">
+          <!-- Right container for additional information -->
+          <p>Quick Links:</p>
+        </div>
+      </div>
     </section>
-
-    <!-- Footer Section -->
-    <footer>
-        <!-- Add any additional information you'd like in the footer -->
-        <p>&copy; 2023 Shane's Technical Portfolio</p>
-    </footer>
-
+    <section id="portfolio" class="services">
+      <div class="service">
+        <img src="images/icon2.png" alt="Service Icon">
+        <h3>Portfolio</h3>
+        <p>Here you can demo a few websites I've made using HTML, CSS, and JavaScript. There are also several small programs I've written in Python that you can use and examine freely. Finally, there is some VR content I've designed by hand. Click the icon to see more.</p>
+      </div>
+      <div class="service">
+        <img src="images/icon3.png" alt="Service Icon">
+        <h3>About Me</h3>
+        <p>I am an amateur front-end engineer and programmer, who designs levels in his spare time. I'm always looking for new projects or opportunities, click the icon above to learn a little more about me.</p>
+      </div>
+      <div class="service">
+        <img src="images/icon4.png" alt="Service Icon">
+        <h3>Contact</h3>
+        <p>Feel free to reach out on any of the platforms linked above</p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2023 SH744</p>
+  </footer>
 </body>
 </html>
