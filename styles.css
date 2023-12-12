@@ -1,50 +1,114 @@
 /* styles.css */
-
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f2f2f2; /* Light gray background */
-    color: #333; /* Dark gray text color */
-    margin: 0;
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 header {
-    background-color: #3498db; /* Blue header background */
-    color: #fff; /* White text color in the header */
-    padding: 20px;
-    text-align: center;
+  background-color: #2a2a2a; /* Dark gray background */
+  padding: 1rem;
 }
 
-section {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
+h3 {
+  text-align: center;
+  color: #fff; /* White text */
 }
 
-h1, h2 {
-    color: #3498db; /* Blue heading color */
+p {
+  text-align: center;
+  word-wrap: break-word;
+  max-width: 200px; /* Use max-width instead of width */
+  margin: 0 auto; /* Center the paragraph */
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #f0f0f0; /* Light gray background */
+  padding: 0.5rem; /* Add some padding */
 }
 
-li {
-    margin-bottom: 10px;
+nav ul li {
+  margin: 0 1rem;
 }
 
-a {
-    color: #2980b9; /* Darker blue link color */
-    text-decoration: none;
+nav ul li a {
+  text-decoration: none;
+  color: #333;
 }
 
-a:hover {
-    text-decoration: underline;
+.hero {
+  text-align: center;
+  padding: 2rem;
+  background-color: #e8e8e8;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto 1rem; /* Center the image and add space at the bottom */
+}
+
+.services {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+  background-color: #ffffff;
+}
+
+.service {
+  text-align: center;
+}
+
+.service img {
+  width: 64px;
+  height: 64px;
+  display: block; /* Make sure the icons are centered */
+  margin: 0 auto; /* Center the icons */
 }
 
 footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #3498db; /* Blue footer background */
-    color: #fff; /* White text color in the footer */
+  background-color: #2a2a2a; /* Dark gray background */
+  text-align: center;
+  color: #fff; /* White text */
+}
+
+/* Add this to your existing CSS */
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.left-info,
+.right-info {
+  text-align: center;
+  flex: 1; /* Equal width for both left and right containers */
+  padding: 20px; /* Add some padding for spacing */
+  border: 2px solid #2a2a2a; /* Border around the containers */
+  border-radius: 10px; /* Rounded corners */
+  background-color: #f0f0f0; /* Background color for the containers */
+  margin: 10px; /* Add some margin to separate the containers */
+}
+
+.profile-info {
+  text-align: center;
+}
+
+/* Add this to your existing CSS */
+.profile-info h1 {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add a drop shadow */
+  margin-top: 20px; /* Push down the text */
+}
+
+body, h1, h2, h3, p {
+  font-family: "Roboto Mono", monospace;
+  /* Other styles */
 }
