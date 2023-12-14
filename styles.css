@@ -111,3 +111,20 @@ body, h1, h2, h3, p {
   font-family: "Roboto Mono", monospace;
   /* Other styles */
 }
+/* styles.css */
+
+/* Specific styles for the portfolio header */
+.portfolio-header {
+  background-color: #2a2a2a; /* Dark gray background */
+  padding: 1rem;
+  text-align: center; /* Center align the header content */
+}
+
+.portfolio-header h3 {
+  font-size: 2rem; /* Increase the font size */
+  color: #ffffff; /* Set text color to white for better contrast */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add drop shadow for depth */
+  margin: 0; /* Remove default margin */
+}
+
+/* The rest of your styles.css content remains the same */
