@@ -127,4 +127,33 @@ body, h1, h2, h3, p {
   margin: 0; /* Remove default margin */
 }
 
+.right-info ul {
+  list-style-type: none; /* Removes bullet points */
+  padding-left: 0; /* Removes indentation */
+}
+
+/* Add this to style the form elements */
+#contact-form div {
+  margin-bottom: 0.5em; /* Adds space between form controls */
+}
+
+#contact-form label,
+#contact-form input,
+#contact-form textarea,
+#contact-form button {
+  display: block; /* Makes each element take up the full width */
+  width: 100%; /* Ensures elements take up the full container width */
+  margin-bottom: 0.5em; /* Adds space between elements */
+}
+
+#contact-form input,
+#contact-form textarea,
+#contact-form button {
+  padding: 0.5em; /* Adds padding inside the form elements for better appearance */
+}
+
+#contact-form label {
+  margin-bottom: 0.2em; /* Smaller space between label and input */
+}
+
 /* The rest of your styles.css content remains the same */
